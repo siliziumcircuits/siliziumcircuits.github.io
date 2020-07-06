@@ -6,6 +6,15 @@
  * Made By MaterializeCSS.com
  */
 
+body {
+  font-family: "Helvetica Neue", "Arial";
+}
+
+h5,
+a {
+  font-weight: lighter;
+}
+
 .icon-block {
   padding: 0 15px;
 }
@@ -30,27 +39,70 @@
 .carousel .indicators {
 }
 
+/* TEXT-REFLECT CSS */
+
+.text-reflect,
+.text-reflect:before,
+.text-reflect {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
 .text-reflect,
 .text-reflect:before,
 .text-reflect:after {
   position: relative;
 }
 
-.reflection-text {
+.text-reflect {
+  display: inline-block;
+  width: 100%;
+  font-family: "Helvetica Neue", "Arial";
+  font-size: 3em;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: center;
+  color: #fff;
+  text-transform: none;
+  padding: 0;
+  margin: 0;
 }
-.reflection-text::before {
-  content: "Silizium Circuits";
-  top: 95px;
+
+.text-reflect:before {
+  top: 79px;
   transform: scale(1, -1);
   backface-visibility: visible;
   z-index: 1;
 }
-.reflection-text::after {
+.text-reflect.index:before {
+  content: "Silizium Circuits";
+}
+.text-reflect.about-us:before {
+  content: "About us";
+}
+.text-reflect.blogs:before {
+  content: "Ideas";
+}
+.text-reflect.contact-us:before {
+  content: "Contact us";
+}
+.text-reflect.products:before {
+  content: "Products";
+}
+
+.text-reflect:after {
   content: "";
   display: block;
-  top: -10px;
+  top: -8px;
   left: 0;
   width: 100%;
-  height: 60px;
+  height: 33px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(33, 33, 33, 0.4) 0%,
+    rgba(33, 33, 33, 1) 50%
+  );
   z-index: 2;
 }
