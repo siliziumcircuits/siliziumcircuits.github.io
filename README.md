@@ -1,5 +1,0 @@
-# siliziumcircuits
-
----
-
-### Static web page
