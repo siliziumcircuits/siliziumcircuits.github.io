@@ -7,7 +7,7 @@
  */
 
 body {
-  font-family: "Helvetica Neue", "Arial";
+  font-family: "Noticia text" "Helvetica Neue", "Arial";
 }
 
 h5,
@@ -44,7 +44,7 @@ a {
 .text-reflect,
 .text-reflect:before,
 .text-reflect {
-  display: block;
+  display: none;
   margin: 0;
   padding: 0;
 }
@@ -58,7 +58,7 @@ a {
 .text-reflect {
   display: inline-block;
   width: 100%;
-  font-family: "Helvetica Neue", "Arial";
+  font-family: "Noticia Text ""Helvetica Neue", "Arial";
   font-size: 3em;
   font-weight: 100;
   text-transform: uppercase;
@@ -69,6 +69,23 @@ a {
   padding: 0;
   margin: 0;
 }
+
+.text-reflect-left {
+  display: inline-block;
+  width: 100%;
+  font-family: "Noticia Text ""Helvetica Neue", "Arial";
+  font-size: 3em;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: left;
+  color: #fff;
+  color: #5960B7 ;
+  text-transform: none;
+  padding: 0;
+  margin: 0;
+}
+
 
 .text-reflect:before {
   top: 79px;
@@ -81,12 +98,14 @@ a {
 }
 .text-reflect.about-us:before {
   content: "About us";
+
 }
 .text-reflect.blogs:before {
   content: "Ideas";
 }
 .text-reflect.contact-us:before {
   content: "Contact us";
+
 }
 .text-reflect.products:before {
   content: "Products";
@@ -105,4 +124,7 @@ a {
     rgba(33, 33, 33, 1) 50%
   );
   z-index: 2;
+}
+.img-box img{
+        display: block;
 }
