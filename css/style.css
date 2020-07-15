@@ -86,6 +86,21 @@ a {
   margin: 0;
 }
 
+.text-reflect-center {
+  display: inline-block;
+  width: 100%;
+  font-family: "Noticia Text ""Helvetica Neue", "Arial";
+  font-size: 3em;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #fff;
+  color: #5960B7 ;
+  text-transform: none;
+  padding: 0;
+  margin: 0;
+}
 
 .text-reflect:before {
   top: 79px;
