@@ -98,6 +98,9 @@ a.navbar-brand img {
   margin: 0 auto;
   font-weight: 400;
 }
+.expertise h4.expertise-title {
+  font-size: inherit;
+}
 .expertise .expertise-descr {
   max-width: 580px;
   font-size: 18px;
@@ -276,3 +279,58 @@ footer .copy-text {
   padding-top: 8px;
   font-size: 9px;
 }
+
+/* career */
+.career {
+  border-top: 1px solid #ccc;
+}
+.career .career-list{
+  cursor: default;
+}
+.career .career-list .list-group-item {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+.career .career-list .list-group-item:last-child {
+  border-bottom: none;
+}
+.career .career-list h5{
+  color: #68b530;
+}
+.career .career-list small{}
+.career .career-list p{}
+.career .career-list a{
+  cursor: pointer;
+}
+/* container-section */
+.container-section {
+  margin: 60px auto 60px auto;
+}
+.container-section .title {
+  text-align: center;
+  padding: 90px 0 10px 0;
+  margin-bottom: 35px;
+  font-size: 30px;
+  text-transform: capitalize;
+  font-weight: 100;
+  max-width: 431px;
+  margin: 0 auto;
+  font-weight: 400;
+}
+.container-section .descr {
+  max-width: 580px;
+  font-size: 18px;
+  line-height: 1.1;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  max-width: 320px;
+}
+
+
+/* common color code */
+.color-pinky {
+  color: #62004d;
+}
+
