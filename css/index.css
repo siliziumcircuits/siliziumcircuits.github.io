@@ -328,6 +328,16 @@ footer .copy-text {
   max-width: 320px;
 }
 
+.update {
+  display: flex; /* or inline-flex */
+  margin-left : 10rem;
+  margin-right : 10rem;
+  flex-wrap : nowrap;
+  justify-content: space-evenly ;
+  align-items: center;		
+}
+
+
 
 /* common color code */
 .color-pinky {
