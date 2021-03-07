@@ -2,7 +2,12 @@ $(document).ready(() => {
   initializeNavLinks();
   initializeFormValidation();
   initExpToggles();
+  initCarouesl();
 });
+
+function initCarouesl() {
+  
+}
 
 function initializeFormValidation() {
   // Fetch all the forms we want to apply custom Bootstrap validation styles to

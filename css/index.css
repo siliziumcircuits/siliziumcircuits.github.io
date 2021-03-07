@@ -2,6 +2,42 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+/* color css */
+.white {
+  color: #FFF !important;
+}
+.black {
+  color: #000 !important;
+}
+.red {
+  color: #F00 !important;
+}
+.green {
+  color: #0F0 !important;
+}
+
+.carousel-indicators {
+  background: #00000012;
+  margin: 0 auto;
+}
+.carousel-indicators li {
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-caption {
+    bottom: 0;
+    padding-bottom: 0;
+  }
+  .carousel-caption h5{
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+  .carousel-caption p{
+    font-size: 10px;
+  }
+}
 
 .navbar {
   background: #fff;
@@ -43,7 +79,7 @@ a.navbar-brand img {
 
 /* home section */
 .home {
-  background: url("../images/1_1.jpg");
+  /* background: url("../images/1_1.jpg"); */
   background-size: cover;
 
 }
@@ -80,7 +116,7 @@ a.navbar-brand img {
 
 @media screen and (min-width: 768px) {
   .home {
-    padding: 100px 0;
+    margin: 0 0 100px 0;
   }
 }
 
@@ -334,7 +370,9 @@ footer .copy-text {
   margin-right : 10rem;
   flex-wrap : nowrap;
   justify-content: space-evenly ;
-  align-items: center;		
+
+  align-items: center;
+
 }
 
 
